@@ -1,0 +1,19 @@
+div.exmple{
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+}
+.colors{
+    color: rgb(8, 0, 255);
+
+}
+@media screen and (min-width: 601px) {
+    div.example{
+        font-size: 80px;
+    } 
+}
+@media screen and (min-widh: 600px) {
+    div.example{
+        font-size: 30px;
+    }
+    
+}

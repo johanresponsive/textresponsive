@@ -1,0 +1,32 @@
+.flex.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1000px;
+}
+.flex-container>div{
+    height: 1000px;
+    width: 100%;
+    border: 9px solid #fff;
+}
+.colors{
+    color: rgb(8, 0, 255);
+
+}
+.flex-container > .tropical {
+    background: url("img/eazy.jpeg");
+}
+.flex-container > .cold{
+    background: url("img/eazy2.jpeg");
+}
+.flex-container > .pnw{
+    background: url("img/eazy3.jpeg");
+}
+.flex-container > .desert{
+    background: url("img/eazy4.jpeg");
+}
+@media only screen and (max-width: 1000px) {
+    .flex-container {
+        flex-wrap: wrap;
+    }
+}
